@@ -1,6 +1,6 @@
 {
   "name": "style-resume",
-  "homepage": "https://Milda100.github.io/Style-Resume",
+  "homepage": "git remote add origin https://Milda100.github.io/Style-Resume",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
@@ -60,6 +60,6 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build" 
   }
 }
