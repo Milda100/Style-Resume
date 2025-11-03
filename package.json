@@ -1,5 +1,6 @@
 {
       "name": "Style Resume",
+      "homepage": "https://Milda100.github.io/Style-Resume",
       "version": "0.1.0",
       "private": true,
       "dependencies": {
@@ -58,6 +59,7 @@
             "dev": "vite",
             "build": "vite build",
             "preview": "vite preview",
+            "predeploy": "npm run build",
             "deploy": "gh-pages -d dist"
       }
 }
