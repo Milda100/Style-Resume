@@ -5,7 +5,6 @@
 
   export default defineConfig({
     plugins: [react()],
-    base: '/Style-Resume/',
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
       alias: {
