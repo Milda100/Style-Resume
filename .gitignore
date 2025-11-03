@@ -1,0 +1,15 @@
+# dependencies
+node_modules/
+
+# build output
+build/
+
+# cache folders
+node_modules/.cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# environment variables
+.env
